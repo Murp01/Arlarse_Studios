@@ -27,12 +27,30 @@
         footer a {
             color: #fff;
         }
+        .card-img-top {
+            object-fit: cover;
+            height: 200px;
+            width: 100%;
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+        }
+        .card-body {
+            flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-title, .card-text, .btn {
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Soundlad Studios</a>
+        <a class="navbar-brand" href="#">Arlarse Studios</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -70,7 +88,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Warrior Dooehn: God Emperor of Azad</h5>
                         <p class="card-text">2D platformer set in Litherland.  An oddysey from the metal bridge to the Strand.</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project1Modal">View Project 1</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project1Modal">Ya Wot?</button>
                     </div>
                 </div>
             </div>
@@ -80,7 +98,17 @@
                     <div class="card-body">
                         <h5 class="card-title">Thumbhead Cloudworm: Remastered</h5>
                         <p class="card-text">3D platform game set across various locations in Liverpool.</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project2Modal">View Project 2</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project2Modal">Ya Wot?</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="KettlewigVR001.png" class="card-img-top img-fluid" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Twisted Kettlewig: World Holiday VR</h5>
+                        <p class="card-text">VR Car Combat game.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project2Modal">Ya Wot?</button>
                     </div>
                 </div>
             </div>
