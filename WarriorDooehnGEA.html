@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warrior Dooehn: God Emperor of AZAD</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Bangers&family=Luckiest+Guy&family=Permanent+Marker&family=Freckle+Face&family=VT323&display=swap" rel="stylesheet">
 
+    <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
+            background-color: #F2D7B5; /* Soft Sandy Beige */
+            color: #5A3E36; /* Dark Brown */
+            background-size: cover;
+            background-attachment: fixed;
         }
         .navbar {
             background-color: #007bff;
@@ -22,8 +24,19 @@
         .navbar a {
             color: #fff;
         }
+
+        h2 {
+            font-family: 'Luckiest Guy', cursive; /* Applying the font */
+            color: #5A3E36; /* Dark Brown */
+            text-align: center; /* Center align the title */
+        }
+
+        p {
+            font-family: 'Luckiest Guy', cursive; /* Applying the font */
+            color: #5A3E36; /* Dark Brown */
+        }
         footer {
-            background-color: #007bff;
+            background-color: #1e90ff;
             color: #fff;
             padding: 20px 0;
         }
@@ -52,12 +65,14 @@
             position: relative;
             width: 100%;
             max-width: 600px;
-            margin: 0 auto;
+            margin: 20px auto;
             cursor: pointer;
         }
         .video-container img {
             width: 100%;
             height: auto;
+            border: 5px solid #1e90ff;
+            border-radius: 15px;
         }
         .video-container .play-button {
             position: absolute;
@@ -96,8 +111,6 @@
             width: 80%;
             height: 80%;
         }
-
-
     </style>
 </head>
 <body>
@@ -125,6 +138,8 @@
     <!-- Project Details Section -->
     <section class="container mt-5">
         <h2>Warrior Dooehn: God Emperor of AZAD</h2>
+        <br></br>
+        <br></br>
         <p>Join Warrior Dooehn on his odyssey across Litherland. The God Emperor of AZAD has called upon our reluctant hero to track down the stolen VHS covers. Dooehn must find the thieves and return them to his rental store.</p>
         <p>Travel across 5 levels set in Litherland, from the Metal bridge, through Linacre Road to the God Emperor's lair within the Triad Building. Battle various fiends that could only be found within Litherland's Scalscape.</p>
         <p>Glorious mismatched quality 2D landscapes painstakingly crafted by a guy who is obviously new to pixel art. The visuals will obviously take precedence over all the coding beneath that nobody will ever care about but took me hours of learning and debugging. I will marvel at how little anybody pays attention to this!</p>
@@ -199,7 +214,6 @@
         </div>
     </section>
 
-
     <div class="video-container" onclick="openModal()">
         <img src="https://img.youtube.com/vi/t976avvpYHM/maxresdefault.jpg" alt="Video Thumbnail">
         <div class="play-button"></div>
@@ -225,8 +239,6 @@
             }
         }
     </script>
-
-
     
     <!-- Footer -->
     <footer class="text-center mt-5">
